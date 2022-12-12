@@ -76,13 +76,13 @@ public class Login {
 		
 	}
 	
-	public void termsService() {
+	public void doCheckout() {
 		driver.findElement(termsofs).click();
 		driver.findElement(checkout).click();
 		
 	}
 	
-	public void checkOut() throws InterruptedException {
+	public void doPayment() throws InterruptedException {
 		driver.findElement(newaddr).click();
 		driver.findElement(city).sendKeys("Bangalore");
 		driver.findElement(address).sendKeys("Bellandur Outer Ring Road");
@@ -113,6 +113,7 @@ public class Login {
 		driver.findElement(contbtn6).click();
 		
 	}
+	
 
 	
 }

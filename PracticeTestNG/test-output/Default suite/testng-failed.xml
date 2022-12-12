@@ -5,8 +5,10 @@
     <classes>
       <class name="com.anm.Tests.FirstTest">
         <methods>
+          <include name="DoCheckout"/>
           <include name="beforeMethod"/>
-          <include name="TestTricentis"/>
+          <include name="PostCondition"/>
+          <include name="DoPayment"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- com.anm.Tests.FirstTest -->
